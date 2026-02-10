@@ -194,12 +194,16 @@ def menu():
 
         if choice==1:
             manager.add_student()
+            input("Press enter to go to menu........")
         elif choice==2:
             manager.view_student()
+            input("Press enter to go to menu........")
         elif choice==3:
             manager.search_student()
+            input("Press enter to go to menu........")
         elif choice==4:
             manager.update_student()
+            input("Press enter to go to menu........")
         elif choice==5:
             print("\n\nProgram closing...........\n")
             break
